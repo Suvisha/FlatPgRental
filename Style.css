@@ -1,0 +1,175 @@
+*
+{
+    margin:0px;
+    padding: 0px;
+}
+.navbar{
+    height: 50px;
+    background-color: black;
+    padding-top:20px;
+}
+.navnv{
+    padding-right: 200px;
+}
+a{
+    margin-left: 60px;
+    text-decoration: none;
+    color: White;
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 25px;
+    display: inline;
+    background-color: black; 
+}
+a:hover
+{
+    color:grey; 
+}
+.banner{
+    height: 680px;
+    background:url("nat.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+/*.disspinl{
+    height: 250px;
+    background-color: aqua;
+    display: inline-block;
+    margin:10px;
+    margin-left: 30px;
+}
+*/
+footer
+{
+    background-color: black;
+    color: white;
+    height: 40px;
+    font-size: 15px;
+    text-align:center;
+}
+@media (max-width: 600px) {
+    .disspinl{
+        width:100%;
+        margin: 0px;
+    }
+    .navnv
+    {
+        padding-left:0px;
+        display: none; 
+    }
+    .navbar{
+        display: inline-block;
+        width: 27%;
+        height: 575px;
+        position: relative;
+    }
+    .banner{
+        display: inline-block;
+        width: 105%;
+        height: 350px;
+        position: relative;
+    }
+    a{
+        display: block;
+        margin:7px;
+        font-size:medium;
+        text-align:left;
+    }
+    .nnnn{
+        display: inline-block;
+        width: 68%;
+        height: 600;
+        position: absolute;
+    }
+    .clp{
+        position: relative;
+    }
+    footer
+    {
+        height: 40px;
+        
+    }
+}
+@media (min-width: 600px) and (max-width: 1024px) {
+    .disspinl{
+        display: block;
+        margin-left: 0px;
+    }   
+    .navbar{
+        height: 150px;
+        position: absolute;
+        width: 100%;
+    }
+    a{
+        display: inline-block;
+        margin:10px;
+        text-align: center;
+        width: 45%;
+    }
+    .navnv{
+        margin-bottom:20px; 
+        text-align: left;
+    }
+
+}
+@media only screen and (min-width: 1024px) {
+    .navbuttons{
+        width:35%;
+    }
+    .disspinl{
+        width:30%;
+    }
+}
+
+
+
+/*<style>
+            img {
+                 max-width: 100%;
+                 height: auto;
+            }
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color:red;
+            }
+            .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color:grey;
+            color: white;
+            text-align: center;
+            }
+            li {
+                float: left;
+            }
+
+            li a {
+                display: inline-block;;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+            li a:hover {
+                background-color: #111;
+            }
+            @media only screen and (max-width: 600px)
+            {
+                .footer {width:100%;}
+            }
+             Medium devices  
+            @media only screen and (min-width: 600px) and (max-width:1024px)
+            {
+                .footer {width: 100%;}
+            } 
+             Large devices 
+            @media only screen and (min-width: 1025px) 
+            {
+                .footer {width: 100%;}
+            } 
+       </style>
+        */
